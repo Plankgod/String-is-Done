@@ -1,0 +1,85 @@
+﻿Strings in Java(Assignment)
+
+
+
+
+2.How do you concatenate two strings in java?Give Example?
+Ans:-In java, we concatenate two strings by using ‘+’ operator
+
+
+For example-
+public class ConcatenateStrings {
+    public static void main(String[] args) {
+        // Define two strings
+        String str1 = "Hello";
+        String str2 = "World";
+
+
+        // Concatenate the strings
+        String concatenatedString = str1 + " " + str2;
+
+
+        // Print the concatenated string
+        System.out.println(concatenatedString);  // Output: Hello World
+    }
+}
+
+
+3.How do you find the length of a string in Java?explain with example?
+Ans;-In java, we can find the length of a string by using length() provided by the String class.
+Explanation- The ‘String’ class in java has a method called ‘length()’ which returns the number of characters present in the string.That's Why we call the method to find the length of the String object.
+For Example- public class StringLengthExample {
+    public static void main(String[] args) {
+        // Create a string
+        String a = “Anand";
+
+
+        // Get the length of the string
+        int stringLength = a.length();
+
+
+        // Print the length
+        System.out.println("The length of the string is: " + stringLength);
+    }
+}
+
+
+4.How do you compare two strings in java?Give an example?
+Ans-we have two operator which compares two strings such as ‘==’ and ‘ equals() ‘ 
+* ==(it compares the reference of the object).
+String str1 = "america";
+String str2 = "America";
+
+
+if (str1.equals(str2)) {
+    System.out.println("The strings are equal.");
+} else {
+    System.out.println("The strings are not equal."); 
+} // output The strings are not equal
+
+
+
+
+* equals() (it compares the actual values of the String object).
+For Example- 
+String str3 = "India";
+String str4 = new String("India");
+
+
+if (str3 == str4) {
+    System.out.println("The string references are the same.");
+} else {
+    System.out.println("The string references are not the same."); // output The string references are same
+}
+
+
+5.Write a program to find the length of the string ‘refrigerator’
+Ans:- refrigerator.java
+
+
+6.Write a program to check if the letter ‘A’ is present in the word “umbrella”.
+Ans:- FindLetter.java
+
+
+7.Write a program to delete all consonants from the string “Hello,have a good day”.
+Ans:-DeleteConsonants.java
